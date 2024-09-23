@@ -1,0 +1,29 @@
+.header {
+	position: sticky;
+	top: 0;
+	padding-top: 1rem;
+	z-index: 10;
+}
+
+.header__container {
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	background-color: $main-color;
+	border-radius: $radius-2;
+}
+
+.header__logo-img {
+	width: $logo-size;
+	height: $logo-size;
+}
+
+.header__social {
+	gap: clamp(0.5rem, 0.143rem + 1.79vw, 1rem);
+}
+
+.header__social-svg {
+	width: clamp(3rem, 1.571rem + 7.14vw, 5rem);
+	height: clamp(3rem, 1.571rem + 7.14vw, 5rem);
+	fill: $background-color;
+}

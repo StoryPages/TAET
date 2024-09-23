@@ -1,0 +1,33 @@
+.footer {
+	padding: 2rem 0;
+	background-color: $main-color;
+}
+
+.footer__container {
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
+}
+
+.footer__list {
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.footer__heading {
+	margin-bottom: 0.5rem;
+	font-size: 1.6rem;
+}
+
+.footer__desc {
+	font-size: $font-size-desc;
+}
+
+.footer__date {
+	flex-direction: column;
+	gap: 0.2rem;
+}
+
+.footer__span {
+	font-size: $font-size-desc;
+}

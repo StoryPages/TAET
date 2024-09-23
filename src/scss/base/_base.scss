@@ -1,0 +1,52 @@
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	position: relative;
+	margin: 0;
+	font-family: $font-main, 'Segoe UI', Roboto, 'San Francisco', 'Helvetica Neue',
+		Arial, sans-serif;
+	text-wrap: balance;
+}
+
+.container {
+	display: none;
+	margin: 0 auto;
+	max-width: 76.8rem;
+	padding: 0 10px;
+}
+
+.footer{
+	display: none;
+}
+
+.flex {
+	display: flex;
+}
+
+.grid {
+	display: grid;
+}
+
+.no-scroll {
+	overflow-y: hidden;
+}
+
+.none {
+	display: none !important;
+}
+
+.order {
+	order: 1;
+}
+
+* {
+	// outline: 1px solid green !important;
+}
+
+section {
+	padding-top: clamp(1rem, 0.287rem + 3.56vw, 2rem);
+	padding-bottom: clamp(1rem, 0.287rem + 3.56vw, 2rem);
+}

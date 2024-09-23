@@ -1,0 +1,30 @@
+.hero__container {
+	justify-content: center;
+	align-items: center;
+	gap: clamp(2rem, 1.287rem + 3.56vw, 3rem);
+	min-height: 20rem;
+	padding: 2rem;
+	border-radius: $radius-2;
+	background-color: #999;
+	background-image: url('/images/hero/hero.JPG');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hero__heading {
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 400;
+	color: $gray;
+}
+.hero__btn {
+	padding: 1rem clamp(1.5rem, 0.431rem + 5.35vw, 3rem);
+	font-size: clamp(1.6rem, 1.315rem + 1.43vw, 2rem);
+	font-weight: 300;
+	color: $gray;
+	border: 1px solid $main-color;
+	border-radius: 2rem;
+	transition: background-color 0.2s ease;
+	background-color: rgba(0, 0, 0, 0.5);
+}
